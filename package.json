@@ -2,6 +2,7 @@
   "name": "http-from-scratch",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "ts-node-dev --respawn ./src/server.ts",
     "request": "ts-node-dev --respawn ./src/client.ts"
